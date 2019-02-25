@@ -1,0 +1,417 @@
+<!DOCTYPE html>
+<html lang="en">
+   <head>
+
+      <!-- title -->
+      <title>Elsahry Clinics</title>
+
+      <!-- Meta -->
+      <meta name="viewport" content="width=device-width, initial-scale=1" />
+      <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+      <meta name="description" content="Elsahry Clinics">
+      <!-- End Meta -->
+
+      <!-- Stylesheets & Fonts -->
+      <link href="http://fonts.googleapis.com/css?family=Open+Sans:300,400,800,700,600|Montserrat:400,500,600,700|Raleway:100,300,600,700,800" rel="stylesheet" type="text/css" />
+      <link href="assets/css/plugins.css" rel="stylesheet">
+      <link href="assets/css/style.css" rel="stylesheet">
+      <link href="assets/css/responsive.css" rel="stylesheet">
+      <link href="assets/css/custom.css" rel="stylesheet">
+      <!-- End Stylesheets & Fonts -->   
+
+   </head>
+   <body>
+
+      <!-- Header -->
+      <header id="header">
+         <div id="header-wrap">
+            <div class="container">
+               <!-- Logo -->
+               <div id="logo">
+                  <a href="#" class="logo" data-dark-logo="">
+                  <img src="" alt="Elsahry Logo">
+                  </a>
+               </div>
+               <!-- End Logo -->
+               <!-- Navigation Resposnive Trigger -->
+               <div id="mainMenu-trigger">
+                  <button class="lines-button x">
+                  <span class="lines"></span> 
+                  </button>
+               </div>
+               <!-- End Navigation Resposnive Trigger -->
+               <!-- Navigation -->
+               <div id="mainMenu" class="light">
+                  <div class="container">
+                     <nav>
+                        <ul>
+                           <li> <a class="active" href="#">Home</a> </li>
+                           <li> <a href="OurServices.html">Our Services</a> </li>
+                           <li> <a  href="#" data-target="#modal" data-toggle="modal">Book Now</a> </li>
+                           <li> <a  href="AboutUs.html">About Us</a> </li>
+                           <li> <a href="#footer">Contacts</a> </li>
+                        </ul>
+                     </nav>
+                  </div>
+               </div>
+               <!-- End Navigation -->
+            </div>
+         </div>
+      </header>
+      <!-- End Header -->
+
+      <!-- Inspiro Slider -->
+      <div id="slider" class="inspiro-slider" data-height-xs="360">
+         <!-- Slide 1 -->
+         <div class="slide" style="background-image:url('assets/images/homepage/slider/3.jpg');">
+            <div class="container">
+               <div class="slide-captions text-dark">
+                  <!-- Caption -->
+                  <h2 data-caption-animation="rotateInUpLeft" data-caption-delay="300">YOUR SMILE IS OUR TARGET</h2>
+                  <!-- End Caption -->
+               </div>
+            </div>
+         </div>
+         <!-- End Slide 1 -->
+         <!-- Slide 2 -->
+         <div class="slide" style="background-image:url('assets/images/homepage/slider/4.jpg');">
+            <div class="container">
+               <div class="slide-captions text-right text-dark">
+                  <!-- Caption -->
+                  <h2 data-caption-animation="rotateInUpRight">OFFERING THE HIGHEST QYALITY DENTAL CARE</h2>
+                  <!-- End Caption -->
+               </div>
+            </div>
+         </div>
+         <!-- End Slide 2 -->
+      </div>
+      <!-- End Inspiro Slider -->
+    
+      <!-- Book Now Button  -->
+      <section class="background-grey text-center">
+         <div class="container">
+             <div class="row">
+                 <div class="col-lg-12">
+                   <a class="btn btn-rounded" data-target="#modal" data-toggle="modal" href="#">BOOK YOUR APPOINTMENT NOW!</a>
+                  </div>
+             </div>
+     </section>
+     <!-- End Book Now Button  --> 
+
+     <!-- Pop Up Registration  -->
+     <div class="modal fade" id="modal" tabindex="-1" role="modal" aria-labelledby="modal-label" aria-hidden="true" style="display: none;">
+      <div class="modal-dialog">
+          <div class="modal-content">
+            <div class="modal-header">
+               <h4 id="modal-label" class="modal-title">Registration</h4>
+               <button aria-hidden="true" data-dismiss="modal" class="close" type="button">×</button>
+           </div>
+              <div class="modal-body">
+               <form>
+                     <div class="form-row">
+                           <div class="form-group col-md-12">
+                                 <label for="inputName">Full Name</label>
+                                 <input class="form-control" id="inputName" placeholder="Ahmed Ehab" type="text">
+                             </div>
+                             <div class="form-group col-md-6">
+                                 <label for="inputMobile">Mobile Number</label>
+                                 <input class="form-control" id="inputMobile" placeholder="01113338000" type="number">
+                             </div>
+                             <div class="form-group col-md-6">
+                                 <label for="inputEmail">Email</label>
+                                 <input class="form-control" id="inputEmail" placeholder="email@example.com" type="email">
+                             </div>
+                     </div>
+                     <div class="form-row">
+                        <div class="form-group col-md-6">
+                                 <label for="inputBranch" class="form-label">Choose One Of Our Branches</label>
+                                 <select id="inputBranch" class="form-control">
+                                   <option selected="">Choose ...</option>
+                                   <option>San Francisco</option>
+                                   <option>San Francisco</option>
+                                   <option>San Francisco</option>
+                                   <option>San Francisco</option>
+                                </select>
+                           </div>
+                           <div class="form-group col-md-6"> 
+                              <label for="example-date-input" class="form-label">Date</label>
+                                 <input class="form-control" type="date" value="yyyy-mm-dd" id="example-date-input">
+                           </div>
+                     </div>
+                  </form>
+                     <small id="notavailable" class="form-text text-muted">This time is not available.</small>
+                     <small id="available" class="form-text text-muted">This time is available.</small>
+                     <small id="available" class="form-text text-muted">Your Number is 10.</small>
+                     <small id="available" class="form-text text-muted">Your appointment is at 03.30 pm.</small>
+           </div>
+           <div class="modal-footer">
+            <button class="btn btn-b" type="button">Confirm</button>
+            <button data-dismiss="modal" class="btn btn-b" type="button">Close</button>
+        </div>
+          </div>
+      </div>
+  </div>
+      <!-- End Pop Up Registration -->
+
+      <!-- Our Offers -->
+      <div class="container">
+            <div class="row">
+                <div class="col-lg-10 center text-center">
+                    <h2>Our Offers</h2>
+                </div>
+            </div>
+        </div>
+      <section class="p-b-40">
+         <div class="container">
+            <div class="row">
+               <!-- features boxes -->
+               <div class="col-lg-4">
+                  <h4 class="offertitle"><i></i> Fully Responsive</h4>
+                  <p>We’re POLO, a creative agency located in the heart of New York city. Suspendisse consectetur fringilla luctus. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu.</p>
+               </div>
+               <div class="col-lg-4">
+                  <h4 class="offertitle"><i></i> Tons of Options</h4>
+                  <p>We’re POLO, a creative agency located in the heart of New York city. Suspendisse consectetur fringilla luctus. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu.</p>
+               </div>
+               <div class="col-lg-4">
+                  <h4 class="offertitle"><i></i> Powerful</h4>
+                  <p>We’re POLO, a creative agency located in the heart of New York city. Suspendisse consectetur fringilla luctus. Fusce id mi diam, non ornare orci. Pellentesque ipsum erat, facilisis ut venenatis eu.</p>
+               </div>
+               <!-- End features boxes -->
+            </div>
+         </div>
+      </section>
+      <!-- End Our Offers -->
+
+     <!-- Content -->
+      <div class="container">
+         <div class="row">
+             <div class="col-lg-10 center text-center">
+                 <h2 class="dental">Dental Care</h2>
+             </div>
+         </div>
+     </div>
+       <section id="page-content">
+         <div class="container">
+             <!-- post content -->
+             <!-- Blogs -->
+             <div id="blog" class="grid-layout post-3-columns m-b-30" data-item="post-item">
+                 <!-- Post item-->
+                 <div class="post-item border">
+                     <div class="post-item-wrap">
+                         <div class="post-image">
+                             <a href="#">
+                                 <img alt="" src="assets/images/homepage/blogs/A1.jpg">
+                             </a>
+                         </div>
+                         <div class="post-item-description">
+                             <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                             <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                             <h2><a href="#">Teeth Whitening</a></h2>
+                             <p>Tooth whitening lightens teeth and helps to remove stains and discoloration. Whitening is among the most popular cosmetic dental procedures because it can greatly improve how your teeth look. Most dentists perform tooth whitening. Whitening is not a one-time procedure. It will need to be repeated from time to time if you want to maintain the brighter color.</p>
+                             <a href="#" class="item-link">Read More <i class="fa fa-arrow-right"></i></a>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- End Post item-->
+                  <!-- Post item-->
+                  <div class="post-item border">
+                     <div class="post-item-wrap">
+                         <div class="post-image">
+                             <a href="#">
+                                 <img alt="" src="assets/images/homepage/blogs/B2.jpg">
+                             </a>
+                         </div>
+                         <div class="post-item-description">
+                             <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                             <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                             <h2><a href="#">cosmetic Dentistry</a></h2>
+                             <p>Cosmetic dentistry is generally used to refer to any dental work that improves the appearance (though not necessarily the functionality) of teeth. It primarily focuses on improvement dental aesthetics in color, position, shape, size, alignment and overall smile appearance. This has been considered unethical with a predominant objective of marketing to patients.</p>
+                             <a href="#" class="item-link">Read More <i class="fa fa-arrow-right"></i></a>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- End Post item-->
+                  <!-- Post item-->
+                  <div class="post-item border">
+                     <div class="post-item-wrap">
+                         <div class="post-image">
+                             <a href="#">
+                                 <img alt="" src="assets/images/homepage/blogs/C3.jpg">
+                             </a>
+                         </div>
+                         <div class="post-item-description">
+                             <span class="post-meta-date"><i class="fa fa-calendar-o"></i>Jan 21, 2017</span>
+                             <span class="post-meta-comments"><a href=""><i class="fa fa-comments-o"></i>33 Comments</a></span>
+                             <h2><a href="#">Dental Hygiene</a></h2>
+                             <p>Dental hygiene is the practice of keeping one's mouth clean and free of disease and other problems by regular brushing of the teeth and cleaning between the teeth. It is important that Dental hygiene be carried out on a regular basis to enable prevention of dental disease and bad breath. The most common types of dental disease are tooth decay and gum diseases.</p>
+                             <a href="#" class="item-link">Read More <i class="fa fa-arrow-right"></i></a>
+                         </div>
+                     </div>
+                 </div>
+                 <!-- End Post item-->
+             </div>
+             <!--End Blog -->
+         </div>
+         <!--End post content -->
+     </section>
+     <!--End Content -->
+
+      <!-- Our numbers -->
+      <section class="background-grey p-t-100 p-b-80">
+         <div class="container xs-text-center sm-text-center">
+            <div class="row">
+               <div class="col-lg-4">
+                  <div class="text-center">
+                     <div class="counter text-large"> <span data-speed="3000" data-refresh-interval="50" data-to="2200" data-from="150" data-seperator="true"></span> </div>
+                     <div class="seperator seperator-small"></div>
+                     <p>Numbers Of Our Patients</p>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="text-center">
+                     <div class="counter text-large"> <span data-speed="4500" data-refresh-interval="4" data-to="4" data-from="2" data-seperator="true"></span> </div>
+                     <div class="seperator seperator-small"></div>
+                     <p>Numbers Of Our Branches</p>
+                  </div>
+               </div>
+               <div class="col-lg-4">
+                  <div class="text-center">
+                     <div class="counter text-large"> <span data-speed="3000" data-refresh-interval="8" data-to="40" data-from="5" data-seperator="true"></span> </div>
+                     <div class="seperator seperator-small"></div>
+                     <p>Number Of Our Doctors</p>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Our numbers -->
+
+      <!-- Subscribe form -->
+      <section class="background-colored text-center p-t-80  p-b-30">
+         <div class="container">
+            <div class="row justify-content-center">
+               <div class="col-lg-5">
+                  <div class="widget widget-newsletter">
+                     <form class="widget-subscribe-form" action="include/subscribe-form.php" role="form" method="post" novalidate>
+                        <h3 class="text-light">Subscribe to our New Offers</h3>
+                        <div class="input-group mb-0">
+                           <div class="input-group-prepend">
+                              <span class="input-group-text">
+                              <i class="fa fa-paper-plane"></i>
+                              </span>
+                           </div>
+                           <input type="email" aria-required="true" name="widget-subscribe-form-email" class="form-control required email" placeholder="Enter your Email">
+                           <div class="input-group-append">
+                              <button type="submit" id="widget-subscribe-submit-button" class="btn btn-light">Subscribe</button>
+                           </div>
+                        </div>
+                        <small class="text-light">Stay informed on our latest news!</small>
+                     </form>
+                  </div>
+               </div>
+            </div>
+         </div>
+      </section>
+      <!-- End Subscribe form -->
+
+      <!-- Footer -->
+    <footer id="footer" class="footer-light">
+        <div class="footer-content">
+            <div class="container">
+
+                <div class="row">
+                    <div class="col-lg-3">
+                        <!-- Our Branches -->
+                        <div class="widget clearfix widget-contact-us" style="background-image: url('images/world-map-dark.png'); background-position: 50% 20px; background-repeat: no-repeat">
+                            <h4>Our Branches</h4>
+                            <ul class="list-icon">
+                                <li>
+                                    <i class="fa fa-map-marker-alt"></i> 
+                                    795 Folsom Ave, Suite 60 <br> San Francisco, CA 94107
+                                </li>
+                                <li>
+                                        <i class="fa fa-map-marker-alt"></i> 
+                                        795 Folsom Ave, Suite 60 <br> San Francisco, CA 94107
+                                </li>
+                                <li>
+                                        <i class="fa fa-map-marker-alt"></i> 
+                                        795 Folsom Ave, Suite 60 <br> San Francisco, CA 94107
+                                </li>
+                                <li>
+                                        <i class="fa fa-map-marker-alt"></i> 
+                                        795 Folsom Ave, Suite 60 <br> San Francisco, CA 94107
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Our Branches -->
+                    </div>
+                    <div class="col-lg-3">
+                        <!-- Opening Hours -->
+                        <div class="widget">
+                            <h4>Opening Hours</h4>
+                            <ul class="list-icon ">
+                                <li>
+                                        <i class="far fa-clock"></i>Monday - Friday: <strong>08:00 - 22:00</strong>
+                                        <br>Saturday, Sunday: <strong>Closed</strong>
+                                </li>
+                            </ul>
+                        </div>
+                        <!-- End Opening Hours -->
+                    </div>
+                    </li>
+                    <div class="col-lg-3">
+                        <!-- Phone & Email -->
+                        <div class="widget">
+                            <h4>Mobile Number</h4>
+                            <ul class="list-icon">
+                               <li>
+                                   <i class="fa fa-phone"></i>
+                                 (123) 456-7890
+                                </li>
+                            </ul>
+                            <h4>Email Address</h4>
+                            <ul class="list-icon">
+                                 <li>
+                                      <i class="far fa-envelope"></i>
+                                     <a href="mailto:first.last@example.com">first.last@example.com</a>
+                                 </li>
+                            </ul>
+                        </div>
+                        <!-- End Phone & Email -->
+                    </div>
+                    <div class="col-lg-3">
+                            <!-- Social icons -->
+                        <div class="widget">
+                                <h4>Social Media</h4>
+                            <div class="social-icons social-icons-border float-left m-t-20">
+                                    <ul>
+                                        <li class="social-facebook"><a href="#"><i class="fab fa-facebook-f"></i></a></li>
+                                        <li class="social-twitter"><a href="#"><i class="fab fa-twitter"></i></a></li>
+                                        <li class="social-youtube"><a href="#"><i class="fab fa-youtube"></i></a></li>
+                                    </ul>
+                                </div>
+                        </div>
+                                <!-- End Social icons -->
+                        </div>
+                    </div>
+                    
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!-- End Footer -->
+
+    <!-- Go to top button -->
+    <a id="goToTop"><i class="fa fa-angle-up top-icon"></i><i class="fa fa-angle-up"></i></a>
+
+      <!-- Scripts -->
+      <!--Plugins-->
+      <script src="assets/js/jquery.js"></script>
+      <script src="assets/js/plugins.js"></script>
+      <!--Template functions-->
+      <script src="assets/js/functions.js"></script>
+      <!-- End Scripts -->
+
+   </body>
+</html>
